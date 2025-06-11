@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia da Marmita Saudável</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Open Sans', sans-serif; margin: 0; background-color: #f9f9f9; color: #333; }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        .header, .section { text-align: center; padding: 40px 20px; }
+        .header { background-color: #fff; }
+        h1, h2, h3 { font-family: 'Montserrat', sans-serif; }
+        h1 { font-size: 2.5em; color: #333; line-height: 1.2; margin: 0;}
+        h2 { font-size: 1.5em; color: #555; font-weight: 400; margin-top: 10px; }
+        h3 { font-size: 2em; color: #333; }
+        .cta-button {
+            display: inline-block;
+            background-color: #2ECC71;
+            color: #fff;
+            padding: 20px 40px;
+            font-size: 1.2em;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-top: 20px;
+            transition: transform 0.2s;
+        }
+        .cta-button:hover { transform: scale(1.05); }
+        .ebook-mockup { max-width: 300px; margin: 20px 0; }
+        .benefits-list { list-style: none; padding: 0; text-align: left; max-width: 500px; margin: 30px auto; }
+        .benefits-list li { margin-bottom: 15px; font-size: 1.1em; }
+        .benefits-list li::before { content: '✅ '; color: #2ECC71; margin-right: 10px; }
+        .testimonial { background-color: #fff; border-left: 5px solid #2ECC71; padding: 20px; margin: 20px auto; max-width: 600px; text-align: left; }
+        .guarantee-seal { max-width: 150px; margin: 20px 0; }
+        .price { font-size: 3em; color: #2ECC71; font-weight: 700; margin: 10px 0; }
+        .old-price { color: #999; text-decoration: line-through; }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <img src="https://via.placeholder.com/300x300.png?text=Capa+do+Seu+Ebook" alt="Capa do Ebook Guia da Marmita Saudável" class="ebook-mockup">
+            <h1>Sua Semana Inteira Resolvida com Marmitas Saudáveis Prontas em Menos de 2 Horas</h1>
+            <h2>O passo a passo completo com 30 receitas deliciosas para você comer bem, economizar até R$400 por mês com delivery e nunca mais se preocupar com "o que vou almoçar amanhã?".</h2>
+            <a href="[SEU-LINK-DE-CHECKOUT-DA-KIWIFY]" class="cta-button">QUERO COMER BEM E ECONOMIZAR AGORA!</a>
+            <p style="margin-top:10px;">Acesso imediato por apenas R$27,90</p>
+        </div>
+    </header>
+
+    <section class="section" style="background-color: #fff;">
+        <div class="container">
+            <h3>Chega de Improviso. Tenha um Plano Delicioso e Prático!</h3>
+            <ul class="benefits-list">
+                <li><b>Economize Tempo:</b> Gaste apenas 2 horas no seu domingo e tenha o almoço da semana inteira.</li>
+                <li><b>Economize Dinheiro:</b> Reduza drasticamente seus gastos com aplicativos de comida.</li>
+                <li><b>Alimentação Saudável e Saborosa:</b> Receitas testadas e aprovadas para uma dieta equilibrada sem abrir mão do sabor.</li>
+                <li><b>Lista de Compras Inteligente:</b> Vá ao mercado uma única vez com a lista pronta para todas as receitas.</li>
+                <li><b>Fim da Ansiedade:</b> Acabe com a dúvida diária sobre o que comer e foque sua energia no que realmente importa.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h3>Veja o que nossos leitores estão dizendo!</h3>
+            <div class="testimonial">
+                <p>"Comprei o ebook sem muita fé, mas foi a melhor coisa que fiz! Já economizei R$150 na primeira semana e estou amando as receitas."</p>
+                <strong>- Juliana S.</strong>
+            </div>
+            <div class="testimonial">
+                <p>"Finalmente consegui seguir uma dieta! As marmitas são fáceis de fazer e deliciosas. Perdi 2kg no primeiro mês sem sofrimento."</p>
+                <strong>- Marcos P.</strong>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background-color: #eaf8f1;">
+        <div class="container">
+            <img src="https://via.placeholder.com/150x150.png?text=Selo+7+Dias" alt="Garantia de 7 Dias" class="guarantee-seal">
+            <h3>Seu Risco é Absolutamente ZERO!</h3>
+            <p style="max-width: 600px; margin: 0 auto;">Adquira o guia, teste as receitas e se por qualquer motivo você não amar os resultados ou achar que não é para você, basta enviar um único email em até 7 dias e devolveremos 100% do seu dinheiro. Sem perguntas, sem burocracia.</p>
+        </div>
+    </section>
+    
+    <section class="section" style="background-color: #333; color: #fff;">
+        <div class="container">
+            <h3 style="color: #fff;">Oferta Especial de Lançamento por Tempo Limitado!</h3>
+            <p>Este é um preço especial. Em breve, o valor do guia voltará para o preço original.</p>
+            <p class="old-price">De R$59,90</p>
+            <p>por apenas:</p>
+            <div class="price">R$ 27,90</div>
+            <p>ou 12x de R$ 2,72</p>
+            <a href="[SEU-LINK-DE-CHECKOUT-DA-KIWIFY]" class="cta-button">SIM, QUERO GARANTIR MEU DESCONTO!</a>
+            <p style="margin-top:10px; font-size: 0.8em;">Compra 100% segura. Acesso liberado imediatamente.</p>
+        </div>
+    </section>
+
+</body>
+</html>
